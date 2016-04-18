@@ -23,7 +23,7 @@
                 </p>
             </div>
             <div id="p2">
-                <img src="Graphic/Bygholm%20sø.PNG" />
+                <img src="Graphic/Bygholm%20sø.PNG" style="position: relative; top: 3px; left: -459px; height: 1326px; width: 2086px; margin-left: 466px; margin-right: 0px" />
             </div>
 
         </div>
