@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TheWalkingDogs.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
 
 <!DOCTYPE html>
 <script runat="server">
@@ -19,7 +19,6 @@
     }
 </script>
 
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
@@ -39,7 +38,7 @@
 <body style="width: 1053px">
     <form id="form1" runat="server">
     <div style="width: 1049px">
-        <img alt="logo" class="auto-style1" src="Graphic/TWD-Logo-1-e1435054813429.png" /><asp:Image ID="Image1" ImageUrl="Graphic/8TzrAn6Rc.jpg" Width = "83%" runat="server" Height="193px" />
+        <img alt="logo" class="auto-style1" src="TheWalkingDogs/Graphic/TWD-Logo-1-e1435054813429.png" /><asp:Image ID="Image1" ImageUrl="TheWalkingDogs/Graphic/8TzrAn6Rc.jpg" Width = "83%" runat="server" Height="193px" />
        <asp:Button ID="Button1" runat="server" Text="Log in" OnClick="Button1_Click" style="position: relative; top: -60px; left: 44px; height: 49px; width: 85px; font-size: x-large; font-family: Jokerman; bottom: 11px;" />
        <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="Menu1_MenuItemClick" style="font-size: large; font-family: 'Kristen ITC'; font-weight: 700; text-align: left; float: left;">
                 <Items>

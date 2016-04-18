@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="Site1.Master" AutoEventWireup="true" CodeBehind="Parks.aspx.cs" Inherits="TheWalkingDogs.Parks" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Parks.aspx.cs" Inherits="Parks" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -12,7 +13,7 @@
                   </p>
             </div>
             <div id ="p1">
-                <img src="Graphic/Bygholm%20park.PNG" />
+                <img src="TheWalkingDogs/Graphic/Bygholm%20park.PNG" />
             </div>
         </div>
         <div id="park_2">
@@ -23,7 +24,7 @@
                 </p>
             </div>
             <div id="p2">
-                <img src="Graphic/Bygholm%20sø.PNG" />
+                <img src="TheWalkingDogs/Graphic/Bygholm%20sø.PNG" />
             </div>
 
         </div>
@@ -32,3 +33,4 @@
 
 
 </asp:Content>
+
