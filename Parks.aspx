@@ -24,7 +24,11 @@
                 </p>
             </div>
             <div id="p2">
+<<<<<<< HEAD:Parks.aspx
                 <img src="TheWalkingDogs/Graphic/Bygholm%20sø.PNG" />
+=======
+                <img src="Graphic/Bygholm%20sø.PNG" style="position: relative; top: 3px; left: -459px; height: 1326px; width: 2086px; margin-left: 466px; margin-right: 0px" />
+>>>>>>> 3aa00094b8381ac2d21f6614208068dea375469f:TheWalkingDogs/Parks.aspx
             </div>
 
         </div>
