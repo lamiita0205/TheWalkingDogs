@@ -10,6 +10,7 @@
 
     protected void Button1_Click(object sender, EventArgs e)
     {
+        Response.Redirect("/LogIn.aspx");
 
     }
 
@@ -26,11 +27,11 @@
     </asp:ContentPlaceHolder>
     <style type="text/css">
         .auto-style1 {
-            width: 235px;
-            height: 224px;
+            width: 195px;
+            height: 191px;
             position: relative;
-            top: 19px;
-            left: 14px;
+            top: 21px;
+            left: 42px;
             z-index: 1;
         }
     </style>
@@ -38,14 +39,14 @@
 <body style="width: 1414px; height: 490px; margin-top: 0px;">
     <form id="form1" runat="server">
     <div style="width: 1411px; height: 267px;">
-        <img alt="logo" class="auto-style1" src="TheWalkingDogs/Graphic/TWD-Logo-1-e1435054813429.png" /><asp:Image ID="Image1" ImageUrl="TheWalkingDogs/Graphic/8TzrAn6Rc.jpg" runat="server" style="position: relative; top: -217px; left: -5px; height: 223px; width: 73%; margin-left: 255px" />
+        <a href="/HomePage.aspx"><img alt="logo" class="auto-style1" src="TheWalkingDogs/Graphic/TWD-Logo-1-e1435054813429.png" /><asp:Image ID="Image1" ImageUrl="TheWalkingDogs/Graphic/8TzrAn6Rc.jpg" runat="server" style="position: relative; top: -217px; left: -10px; height: 233px; width: 73%; margin-left: 255px" /></a>
        <asp:Button ID="Button1" runat="server" Text="Log in" OnClick="Button1_Click" style="position: relative; top: -277px; left: -31px; height: 51px; width: 94px; font-size: x-large; font-family: Jokerman; bottom: 226px;" />
     </div>
-    <div style="width: 181px; height: 121px; position: relative; top: -54px; left: 45px; margin-top: 19px; text-align: center;">
+    <div style="width: 181px; height: 121px; position: relative; top: -81px; left: 55px; margin-top: 19px; text-align: center;">
             <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="Menu1_MenuItemClick" style="font-size: x-large; font-family: 'Kristen ITC'; font-weight: 700; text-align: center; float: left; z-index: 1; left: 0px; top: 0px; position: absolute; height: 100px; width: 170px;">
                 <Items>
-                    <asp:MenuItem Text="Parks" Value="Parks"></asp:MenuItem>
-                    <asp:MenuItem Text="My route" Value="MyRoute"></asp:MenuItem>
+                    <asp:MenuItem Text="Parks" Value="Parks" NavigateUrl="/Parks.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="My route" Value="MyRoute" NavigateUrl="MyRoute.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Who's around" Value="WhosAround"></asp:MenuItem>
                 </Items>
             </asp:Menu>

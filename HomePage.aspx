@@ -13,6 +13,7 @@
 </style>
 
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p style="height: 457px; width: 1116px; position: relative; top: -198px; left: 246px;">
     <img alt="homePage" class="auto-style2" src="TheWalkingDogs/Graphic/homePage.png" /></p>
